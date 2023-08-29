@@ -2,9 +2,11 @@
 (click)="onClick()"
 >{{number}}</div> -->
 
-<div [ngClass]="{ 
+<!-- <div [ngClass]="{ 
   red: isClicked && number%5 !=0,
   green: isClicked && number % 5 == 0
 }" (click)="onClick()">
   {{number}}
-</div>
+</div> -->
+
+<div appHighlight [number]="number" [divisibleBy]="3">{{number}}</div>

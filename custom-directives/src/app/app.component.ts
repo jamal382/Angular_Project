@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
-  number = 255;
+  number = 10;
   isClicked = false;
 
   onClick() {
     this.isClicked = true;
   }
-  
+
 }
