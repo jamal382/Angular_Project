@@ -1,0 +1,10 @@
+<!-- <div [ngClass]="{ red: number%5 !=0,green: number % 5 == 0}"
+(click)="onClick()"
+>{{number}}</div> -->
+
+<div [ngClass]="{ 
+  red: isClicked && number%5 !=0,
+  green: isClicked && number % 5 == 0
+}" (click)="onClick()">
+  {{number}}
+</div>
