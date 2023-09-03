@@ -5,7 +5,7 @@ This is a starter application that shows angular custom directive.
 ## Running
 
 ```
-cd ng-frontend
+cd custom-directives
 npm install -g @angular/cli
 npm install
 ng serve --open
