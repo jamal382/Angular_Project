@@ -1,1 +1,5 @@
-<h1>Component life-cycle</h1>
+<h3>Parent component</h3>
+
+<input type="text" [(ngModel)]="author">
+<button (click)="toggle()">Show</button>
+<app-child *ngIf="_toggled"></app-child>
